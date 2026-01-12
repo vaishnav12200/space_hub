@@ -2,6 +2,10 @@
 
 A modern, interactive website dedicated to space exploration, astronomy, and the latest cosmic discoveries. Built with Next.js, TypeScript, and Tailwind CSS.
 
+## 🌐 Live Demo
+
+**🚀 [View Live Site](https://space-hub-explore.web.app)**
+
 ![Space Hub](https://img.shields.io/badge/Space-Hub-blue?style=for-the-badge&logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-16.0.3-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
