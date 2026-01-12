@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: 'export',  // Enable static export for Firebase Hosting
+  trailingSlash: true,  // Better compatibility with Firebase
   devIndicators: false,
   images: {
     remotePatterns: [
@@ -10,6 +12,7 @@ const nextConfig: NextConfig = {
         hostname: '**',
       },
     ],
+    unoptimized: true,  // Required for static export
   },
 };
 

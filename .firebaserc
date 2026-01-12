@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "billbuddy-90b14"
+  },
+  "targets": {
+    "billbuddy-90b14": {
+      "hosting": {
+        "space-hub": [
+          "space-hub-explore"
+        ]
+      }
+    }
+  }
+}
