@@ -205,12 +205,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Spaceflight News API**: For real-time space news
 - **Vercel**: For hosting and deployment platform
 
-## 📞 Contact
-
-- **Website**: [space-hub.vercel.app](https://space-hub.vercel.app)
-- **GitHub**: [github.com/yourusername/space-hub](https://github.com/yourusername/space-hub)
-- **Email**: your.email@example.com
-
 ---
 
 ## 🌟 Features Showcase
