@@ -126,3 +126,18 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--purple-glow);
 }
+/* Hide Next.js dev indicator */
+[data-nextjs-dialog-overlay],
+[data-nextjs-dialog],
+nextjs-portal {
+  display: none !important;
+}
+
+/* Hide the Next.js logo/indicator in dev mode */
+body > nextjs-portal,
+#__next-build-indicator,
+[data-next-badge-root] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}

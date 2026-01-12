@@ -24,7 +24,7 @@ const blackHolesData: BlackHole[] = [
     distance: "26,000 light-years",
     eventHorizon: "24 million km",
     discovered: "2022 (first image)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sgr_A_star.jpg/1200px-Sgr_A_star.jpg",
+    image: "https://www.eso.org/public/archives/images/large/eso2406a.jpg",
     color: "#FF6B00",
     bgGradient: "from-orange-950 via-red-950 to-slate-950"
   },
@@ -60,7 +60,7 @@ const blackHolesData: BlackHole[] = [
     distance: "10.4 billion light-years",
     eventHorizon: "390 billion km",
     discovered: "1957",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Black_Holes_-_Pair_Merging_%28Illustration%29.jpg/1200px-Black_Holes_-_Pair_Merging_%28Illustration%29.jpg",
+    image: "https://tse4.mm.bing.net/th/id/OIP.O1K7vCb001jW8zgOXnC5ZQHaEK?pid=Api&P=0&h=220",
     color: "#9400D3",
     bgGradient: "from-purple-950 via-violet-950 to-slate-950"
   },
@@ -72,7 +72,7 @@ const blackHolesData: BlackHole[] = [
     distance: "5.7 billion light-years",
     eventHorizon: "590 billion km",
     discovered: "2012",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/A_Black_Hole%27s_Dinner_is_Fast_Approaching.jpg/1200px-A_Black_Hole%27s_Dinner_is_Fast_Approaching.jpg",
+    image: "https://i0.wp.com/sciquest.org/wp-content/uploads/2023/06/black-hole-escape-hd-02.jpg?resize=2048%2C1152&ssl=1",
     color: "#FF1493",
     bgGradient: "from-pink-950 via-rose-950 to-purple-950"
   },
@@ -84,7 +84,7 @@ const blackHolesData: BlackHole[] = [
     distance: "1.3 billion light-years",
     eventHorizon: "370 km",
     discovered: "2015",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/LIGO_measurement_of_gravitational_waves.svg/1200px-LIGO_measurement_of_gravitational_waves.svg.png",
+    image: "https://www.astroblogs.nl/wp-content/uploads/2017/11/blackhole20171003-16.jpg",
     color: "#00CED1",
     bgGradient: "from-cyan-950 via-teal-950 to-slate-950"
   },
@@ -96,7 +96,7 @@ const blackHolesData: BlackHole[] = [
     distance: "Relative",
     eventHorizon: "Schwarzschild radius",
     discovered: "Theory: 1916",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Accretion_Disk_Binary_System.jpg/1200px-Accretion_Disk_Binary_System.jpg",
+    image: "https://as2.ftcdn.net/v2/jpg/04/20/41/17/1000_F_420411717_gZstLQzoLvXVNByOOrEIZ4D0kwWjJYQp.jpg",
     color: "#FFFFFF",
     bgGradient: "from-slate-950 via-gray-900 to-zinc-950"
   },
@@ -108,7 +108,7 @@ const blackHolesData: BlackHole[] = [
     distance: "Universal",
     eventHorizon: "Quantum boundary",
     discovered: "Theory: 1974",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Hawking_radiation.svg/1200px-Hawking_radiation.svg.png",
+    image: "https://www.sciencealert.com/images/2020-06/processed/hawkingradiation_topic_1024.jpg",
     color: "#FFD700",
     bgGradient: "from-amber-950 via-yellow-950 to-slate-950"
   }

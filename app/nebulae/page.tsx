@@ -60,7 +60,7 @@ const nebulaeData: Nebula[] = [
     size: "300 light-years",
     constellation: "Carina",
     discovered: "1752",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Carina_Nebula_by_Harel_Boren_%28151851961%2C_modified%29.jpg/1200px-Carina_Nebula_by_Harel_Boren_%28151851961%2C_modified%29.jpg",
+    image: "https://www.thoughtco.com/thmb/81p4zjH-IhWziDWNQRArHcc1Uho=/3307x2598/filters:no_upscale():max_bytes(150000):strip_icc()/Eta_carinae_IR-0307a5ca81ef44598b003fcf080488e9.jpg",
     color: "#FFB347",
     bgGradient: "from-orange-950 via-yellow-900 to-amber-950"
   },
@@ -96,7 +96,7 @@ const nebulaeData: Nebula[] = [
     size: "2.5 light-years",
     constellation: "Aquarius",
     discovered: "1824",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/NGC_7293_%282004%29.jpg/1200px-NGC_7293_%282004%29.jpg",
+    image: "https://telescope.live/sites/default/files/2022-11/HelixNebulaC.jpg",
     color: "#00BFFF",
     bgGradient: "from-blue-950 via-cyan-950 to-teal-950"
   },
@@ -108,7 +108,7 @@ const nebulaeData: Nebula[] = [
     size: "3 light-years",
     constellation: "Scorpius",
     discovered: "1888",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Butterfly_Nebula.jpg/1200px-Butterfly_Nebula.jpg",
+    image: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/butterfly-nebula-ngc6302-adam-romanowicz.jpg",
     color: "#9370DB",
     bgGradient: "from-purple-950 via-violet-900 to-indigo-950"
   }

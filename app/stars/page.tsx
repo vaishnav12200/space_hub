@@ -36,7 +36,7 @@ const starsData: Star[] = [
     lifespan: "< 100,000 years left",
     luminosity: "126,000 Solar",
     mass: "16.5 Solar Masses",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Betelgeuse_captured_by_ALMA.jpg/1200px-Betelgeuse_captured_by_ALMA.jpg",
+    image: "https://scitechdaily.com/images/Betelgeuse-Illustration-777x777.jpg",
     color: "#FF4500",
     bgGradient: "from-red-950 via-orange-950 to-rose-950"
   },
@@ -48,7 +48,7 @@ const starsData: Star[] = [
     lifespan: "1 billion years",
     luminosity: "25.4 Solar",
     mass: "2.1 Solar Masses",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Sirius_A_and_B_artwork.jpg/1200px-Sirius_A_and_B_artwork.jpg",
+    image: "https://humanoriginproject.com/wp-content/uploads/2019/04/Sirius-Star.jpg",
     color: "#A8D8FF",
     bgGradient: "from-blue-950 via-cyan-950 to-slate-950"
   },
@@ -60,7 +60,7 @@ const starsData: Star[] = [
     lifespan: "< 10 million years",
     luminosity: "120,000 Solar",
     mass: "21 Solar Masses",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rigel_sun_comparison.png/1200px-Rigel_sun_comparison.png",
+    image: "https://cdnb.artstation.com/p/assets/images/images/056/822/811/large/matteo-barbaro-1.jpg?1670187035",
     color: "#B4D7FF",
     bgGradient: "from-blue-950 via-indigo-950 to-slate-950"
   },
@@ -72,7 +72,7 @@ const starsData: Star[] = [
     lifespan: "1 billion years",
     luminosity: "40 Solar",
     mass: "2.1 Solar Masses",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Vega_in_Lyra.jpg/1200px-Vega_in_Lyra.jpg",
+    image: "https://preview.redd.it/egg-shaped-star-vega-v0-l2f5dea8jggb1.png?width=1080&crop=smart&auto=webp&s=198595cf391c24f7e1cad408917a898c293f739b",
     color: "#CCE5FF",
     bgGradient: "from-indigo-950 via-blue-950 to-slate-950"
   },
@@ -84,7 +84,7 @@ const starsData: Star[] = [
     lifespan: "50 million years",
     luminosity: "1,260 Solar",
     mass: "5.4 Solar Masses",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Polaris_system.jpg/1200px-Polaris_system.jpg",
+    image: "https://astrologyking.com/wp-content/uploads/polaris-star-alpha-ursar-minoris-800x450.jpg",
     color: "#FFE4B5",
     bgGradient: "from-amber-950 via-yellow-900 to-orange-950"
   },
@@ -108,7 +108,7 @@ const starsData: Star[] = [
     lifespan: "Weeks visible",
     luminosity: "10 billion Solar",
     mass: "8+ Solar Masses",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Keplers_supernova.jpg/1200px-Keplers_supernova.jpg",
+    image: "https://d.newsweek.com/en/full/2136318/supernova-space.jpg?w=1200&f=953bd9d4c139d812df7120e4c9f2a7a2",
     color: "#FF6B6B",
     bgGradient: "from-red-950 via-orange-900 to-yellow-950"
   }

@@ -11,7 +11,7 @@ export default function Home() {
     {
       title: "Cosmic Speed",
       fact: "Light travels 299,792,458 meters per second",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Starsinthesky.jpg/220px-Starsinthesky.jpg"
+      icon: "https://tse4.mm.bing.net/th/id/OIP.fxu-NL5VmokYpLVdAFt1NgHaEK?pid=Api&P=0&h=220"
     },
     {
       title: "Deep Space",
@@ -60,7 +60,7 @@ export default function Home() {
           {/* Navigation Buttons */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             <Button href="/planets" variant="primary" size="lg" className="flex-col h-20">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/220px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg" alt="Planets" className="w-8 h-8 mb-1 object-contain rounded-full" />
+              <img src="https://cdn.pixabay.com/photo/2017/03/03/09/49/earth-2113656_1280.jpg" alt="Planets" className="w-8 h-8 mb-1 object-contain rounded-full" />
               Planets
             </Button>
             <Button href="/stars" variant="secondary" size="lg" className="flex-col h-20">
@@ -68,11 +68,11 @@ export default function Home() {
               Stars
             </Button>
             <Button href="/news" variant="primary" size="lg" className="flex-col h-20">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Hubble_Space_Telescope_over_Earth_%28during_the_STS-109_mission%29.jpg/220px-Hubble_Space_Telescope_over_Earth_%28during_the_STS-109_mission%29.jpg" alt="News" className="w-8 h-8 mb-1 object-contain rounded-full" />
+              <img src="https://images.newscientist.com/wp-content/uploads/2025/05/27131024/SEI_253309215.jpg" alt="News" className="w-8 h-8 mb-1 object-contain rounded-full" />
               News
             </Button>
             <Button href="/missions" variant="secondary" size="lg" className="flex-col h-20">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/SpaceX_Crew_Dragon_%28crop_2%29.jpg/220px-SpaceX_Crew_Dragon_%28crop_2%29.jpg" alt="Missions" className="w-8 h-8 mb-1 object-contain rounded-full" />
+              <img src="https://www.satellitetoday.com/wp-content/uploads/2023/03/oneweb_lift-off_launch_18_26.03.22_-_photo_credit_-_isro-1536x1022.jpg" alt="Missions" className="w-8 h-8 mb-1 object-contain rounded-full" />
               Missions
             </Button>
           </div>

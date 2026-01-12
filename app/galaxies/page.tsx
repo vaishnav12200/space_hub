@@ -60,7 +60,7 @@ const galaxiesData: Galaxy[] = [
     diameter: "76,000 ly",
     stars: "160 billion",
     age: "400 million years",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Whirlpool_Galaxy.jpg/1200px-Whirlpool_Galaxy.jpg",
+    image: "https://scitechdaily.com/images/M51-Whirlpool-Galaxy-scaled.jpg",
     color: "#87CEEB",
     bgGradient: "from-cyan-950 via-blue-950 to-indigo-950"
   },
@@ -72,7 +72,7 @@ const galaxiesData: Galaxy[] = [
     diameter: "60,000 ly",
     stars: "40 billion",
     age: "10 billion years",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Triangulum_Galaxy_%28full%29.jpg/1200px-Triangulum_Galaxy_%28full%29.jpg",
+    image: "https://static.vecteezy.com/system/resources/previews/024/472/935/large_2x/photographing-the-intricate-details-of-the-triangulum-galaxy-a-spiral-galaxy-located-in-the-constellation-triangulum-using-specialized-cameras-and-telescopes-generate-ai-free-photo.jpg",
     color: "#DDA0DD",
     bgGradient: "from-purple-950 via-pink-950 to-slate-950"
   },
@@ -96,7 +96,7 @@ const galaxiesData: Galaxy[] = [
     diameter: "150,000 ly",
     stars: "Few billion",
     age: "300 million years (current form)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cartwheel_Galaxy_%28NIRCam_and_MIRI_Composite_Image%29.png/1200px-Cartwheel_Galaxy_%28NIRCam_and_MIRI_Composite_Image%29.png",
+    image: "https://s3files.core77.com/blog/images/1104128_81_102238_KpaR_l7GZ.jpg",
     color: "#FF69B4",
     bgGradient: "from-pink-950 via-rose-950 to-purple-950"
   },
@@ -108,7 +108,7 @@ const galaxiesData: Galaxy[] = [
     diameter: "97,000 ly",
     stars: "100 billion",
     age: "13.27 billion years",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Centaurus_A_%28ALMA%29.jpg/1200px-Centaurus_A_%28ALMA%29.jpg",
+    image: "https://images.fineartamerica.com/images-medium-large-5/centaurus-a-galaxy-european-southern-observatoryscience-photo-library.jpg",
     color: "#CD853F",
     bgGradient: "from-orange-950 via-amber-950 to-slate-950"
   }
@@ -123,7 +123,7 @@ export default function GalaxiesPage() {
   const goToPrevious = () => {
     if (isAnimating) return;
     setIsAnimating(true);
-    setTimeout(() => {
+    setTimeout(() => {https://upload
       setCurrentIndex((prev) => (prev === 0 ? galaxiesData.length - 1 : prev - 1));
       setIsAnimating(false);
     }, 300);
