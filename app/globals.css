@@ -1,26 +1,128 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --space-dark: #040b1e;
+  --neon-blue: #1dd1f2;
+  --purple-glow: #8a2be2;
+  --space-white: #ffffff;
+  --space-gray: #1a1a2e;
+  --deep-purple: #16213e;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: var(--space-dark);
+  --color-foreground: var(--space-white);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-neon-blue: var(--neon-blue);
+  --color-purple-glow: var(--purple-glow);
+  --color-space-gray: var(--space-gray);
+  --color-deep-purple: var(--deep-purple);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--space-dark);
+  color: var(--space-white);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Space-themed animations */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 10px var(--neon-blue); }
+  50% { box-shadow: 0 0 30px var(--neon-blue), 0 0 60px var(--neon-blue); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes nebula-fade {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Utility classes for space theme */
+.star-field {
+  background: radial-gradient(ellipse at center, var(--deep-purple) 0%, var(--space-dark) 100%);
+  position: relative;
+}
+
+.star-field::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, var(--space-white), transparent),
+    radial-gradient(2px 2px at 40px 70px, var(--neon-blue), transparent),
+    radial-gradient(1px 1px at 90px 40px, var(--space-white), transparent),
+    radial-gradient(1px 1px at 130px 80px, var(--neon-blue), transparent),
+    radial-gradient(2px 2px at 160px 30px, var(--space-white), transparent);
+  background-repeat: repeat;
+  background-size: 200px 100px;
+  animation: twinkle 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.planet-rotate {
+  animation: rotate 20s linear infinite;
+}
+
+.planet-hover:hover {
+  animation: rotate 2s linear infinite;
+  box-shadow: 0 0 30px var(--neon-blue);
+}
+
+.glow-text {
+  text-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue), 0 0 30px var(--neon-blue);
+}
+
+.neon-border {
+  border: 2px solid var(--neon-blue);
+  box-shadow: 0 0 10px var(--neon-blue), inset 0 0 10px rgba(29, 209, 242, 0.1);
+}
+
+.purple-glow {
+  box-shadow: 0 0 20px var(--purple-glow);
+}
+
+.floating-element {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--space-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neon-blue);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--purple-glow);
 }
